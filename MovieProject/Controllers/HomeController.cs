@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;  // Lets Us Use .Includes
+
 using MovieProject.Models;
 using System.Diagnostics;
 

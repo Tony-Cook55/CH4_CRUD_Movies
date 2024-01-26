@@ -2,7 +2,7 @@
 
 namespace MovieProject.Models
 {
-    public class MovieContextModel : DbContext
+    public class MovieContextModel           : DbContext // ADD : DbContext to allow certain call ins below to work
     {
         /*< This is our Model Class >*/
         // This is a List of <Movies> that will come from the database
